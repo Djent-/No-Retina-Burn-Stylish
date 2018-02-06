@@ -1,0 +1,99 @@
+@-moz-document domain("www.youtube.com") {
+    #page, #masthead-appbar, #content, div .yt-card, .yt-uix-sessionlink, .yt-lockup-byline, #yt-masthead-container, #appbar-guide-menu, #masthead-positioner-height-offset, .yt-uix-button, #footer, #footer-container, #body-container, li.currently-playing, #watch-appbar-playlist, .playlist-title, h4, .yt-uix-scroller-scroll-unit {
+        background: #171b1f !important;
+    }
+    #masthead-appbar,
+    #yt-masthead-container,
+    div#appbar-guide-menu,
+    #watch8-action-buttons {
+        border: #171b1f !important;
+    }
+    .epic-nav-item-heading,
+    .yt-uix-button-content,
+    .branded-page-module-title-text,
+    .display-name.no-count,
+    .display-name,
+    span.title,
+    span.yt-badge,
+    #eow-title,
+    #eow-description,
+    .yt-uix-sessionlink,
+    .comment-renderer-text-content,
+    .watch-time-text,
+    .pl-header-title,
+    #footer-links-primary li a {
+        color: #b1b1b1 !important;
+    }
+    .yt-uix-dragdrop-drag-handle {
+        background: #106696 !important;
+    }
+}
+
+@-moz-document domain("kitsu.io") {
+    .global-container, tr, div.card, body, .modal-content, .modal-footer {
+        background: #171b1f !important;
+    }
+    nav {
+        background: 0 0 !important;
+        border: rgba(0, 0, 0, 0) !important;
+    }
+    .dark-cover-overlay,
+    input#search,
+    .library-search-input {
+        background: 0 0 !important;
+    }
+    .library-search-input,
+    th,
+    .title-wrapper a,
+    .current-rating,
+    h5,
+    label {
+        color: #b1b1b1 !important;
+    }
+}
+
+@-moz-document domain("news.ycombinator.com") {
+    body, table, a, span {
+        background: #171b1f !important;
+        color: #b1b1b1 !important;
+    }
+}
+
+@-moz-document domain("omz-software.com") {
+    body, .document, #module-ui, a, h1, h2, h3, .pre, tt {
+        background: #171b1f !important;
+        color: #b1b1b1 !important;
+    }
+    pre {
+        background: #909090;
+        border: rgba(0, 0, 0, 0);
+    }
+}
+
+@-moz-document domain("github.com") {
+    body, a, h1, h2, h3, .commit-tease, .pagehead, table, td, .file-header, .commit-tease-contributors, .user-mention, .Counter, #js-issues-toolbar, .js-issue-row, ul.pl-2, header, .description, .Header, .discussion-timeline-actions, .timeline-comment, .comment-form-head {
+        background: #171b1f !important;
+        color: #b1b1b1 !important;
+    }
+    input, #new-comment-field {
+        background: 0 0;
+    }
+    .pl-smi,
+    strong {
+        color: white !important;
+    }
+    .pl-s {
+        color: #01499c;
+    }
+    .link-gray-dark {
+        color: #698096 !important;
+    }
+}
+
+@-moz-document domain("twitter.com") {
+    body, .global-nav-inner, .tweet, .module, .home-tweet-box, .flex-module, .Footer, strong, .inline-reply-tweetbox, p, .ProfileNav-list, .ProfileHeading-toggle, .ProfileCanopy-navBar.u-boxShadow, .ProfileNav-item, li.is-active span, .ActivityItem, .QuoteTweet-innerContainer, .tweet-content, .QuoteTweet-text, h3, .DMActivity-header, .DMInbox-tab, h2, .DMInbox-conversationItem, b, .DMInboxItem, .recap-header {
+        background: #171b1f !important;
+        color: #b1b1b1 !important;
+    }
+    
+}
