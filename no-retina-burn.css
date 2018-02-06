@@ -71,11 +71,12 @@
 }
 
 @-moz-document domain("github.com") {
-    body, a, h1, h2, h3, .commit-tease, .pagehead, table, td, .file-header, .commit-tease-contributors, .user-mention, .Counter, #js-issues-toolbar, .js-issue-row, ul.pl-2, header, .description, .Header, .discussion-timeline-actions, .timeline-comment, .comment-form-head, article {
+    body, a, h1, h2, h3, .commit-tease, .pagehead, table, td, .file-header, .commit-tease-contributors, .user-mention, .Counter, #js-issues-toolbar, .js-issue-row, ul.pl-2, header, .description, .Header, .discussion-timeline-actions, .timeline-comment, .comment-form-head, article, .CodeMirror-linenumber, .CodeMirror-line {
         background: #171b1f !important;
         color: #b1b1b1 !important;
     }
-    input, #new-comment-field {
+    input,
+    #new-comment-field {
         background: 0 0;
     }
     .pl-smi,
@@ -88,6 +89,9 @@
     .link-gray-dark {
         color: #698096 !important;
     }
+    .cm-string {
+        color: #005bc5;
+    }
 }
 
 @-moz-document domain("twitter.com") {
@@ -95,5 +99,4 @@
         background: #171b1f !important;
         color: #b1b1b1 !important;
     }
-    
 }
