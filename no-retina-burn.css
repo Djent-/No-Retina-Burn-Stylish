@@ -100,3 +100,10 @@
         color: #b1b1b1 !important;
     }
 }
+
+@-moz-document domain("www.google.com") {
+    body, .fbar, a, p, span, div, input {
+        background: #171b1f !important;
+        color: #b1b1b1 !important;
+    }
+}
