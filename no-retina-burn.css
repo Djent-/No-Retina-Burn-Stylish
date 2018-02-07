@@ -1,5 +1,5 @@
 @-moz-document domain("www.youtube.com") {
-    #page, #masthead-appbar, #content, div .yt-card, .yt-uix-sessionlink, .yt-lockup-byline, #yt-masthead-container, #appbar-guide-menu, #masthead-positioner-height-offset, .yt-uix-button, #footer, #footer-container, #body-container, li.currently-playing, #watch-appbar-playlist, .playlist-title, h4, .yt-uix-scroller-scroll-unit {
+    #page, #masthead-appbar, #content, div .yt-card, .yt-uix-sessionlink, .yt-lockup-byline, #yt-masthead-container, #appbar-guide-menu, #masthead-positioner-height-offset, button.edit-button, button.remove-watched-button, button.playlist-add-video-button, button.yt-uix-inlineedit-edit, #footer, #footer-container, #body-container, li.currently-playing, #watch-appbar-playlist, .playlist-title, h4, .yt-uix-scroller-scroll-unit, .pl-video-edit-more, .yt-uix-menu-trigger, .yt-uix-menu-trigger-selected, .yt-uix-menu-content, .yt-ui-menu-content, .pl-video-edit-remove, .yt-ui-menu-item, #yt-picker-language-button, #yt-picker-country-button, #yt-picker-safetymode-button, #google-help, .yt-picker, .secondary-header-contents {
         background: #171b1f !important;
     }
     #masthead-appbar,
@@ -21,11 +21,22 @@
     .comment-renderer-text-content,
     .watch-time-text,
     .pl-header-title,
-    #footer-links-primary li a {
+    #footer-links-primary li a,
+    .yt-ui-menu-item,
+    #yt-picker-language-button,
+    #yt-picker-country-button,
+    #yt-picker-safetymode-button,
+    #google-help,
+    .yt-picker, h3, strong,
+    .secondary-header-contents,
+    span.nav-text, h4 {
         color: #b1b1b1 !important;
     }
-    .yt-uix-dragdrop-drag-handle {
+    .yt-uix-dragdrop-drag-handle,
+    .addto-watchlater-button,
+    .addto-watchlater-success {
         background: #106696 !important;
+        color: #106696 !important;
     }
 }
 
