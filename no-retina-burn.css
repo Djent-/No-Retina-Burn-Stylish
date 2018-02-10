@@ -1,5 +1,5 @@
 @-moz-document domain("www.youtube.com") {
-    #page, #masthead-appbar, #content, div .yt-card, .yt-uix-sessionlink, .yt-lockup-byline, #yt-masthead-container, #appbar-guide-menu, #masthead-positioner-height-offset, button.edit-button, button.remove-watched-button, button.playlist-add-video-button, button.yt-uix-inlineedit-edit, #footer, #footer-container, #body-container, li.currently-playing, #watch-appbar-playlist, .playlist-title, h4, .yt-uix-scroller-scroll-unit, .pl-video-edit-more, .yt-uix-menu-trigger, .yt-uix-menu-trigger-selected, .yt-uix-menu-content, .yt-ui-menu-content, .pl-video-edit-remove, .yt-ui-menu-item, #yt-picker-language-button, #yt-picker-country-button, #yt-picker-safetymode-button, #google-help, .yt-picker, .secondary-header-contents {
+    #page, #masthead-appbar, #content, div .yt-card, .yt-uix-sessionlink, .yt-lockup-byline, #yt-masthead-container, #appbar-guide-menu, #masthead-positioner-height-offset, button.edit-button, button.remove-watched-button, button.playlist-add-video-button, button.yt-uix-inlineedit-edit, #footer, #footer-container, #body-container, li.currently-playing, #watch-appbar-playlist, .playlist-title, h4, .yt-uix-scroller-scroll-unit, .pl-video-edit-more, .yt-uix-menu-trigger, .yt-uix-menu-trigger-selected, .yt-uix-menu-content, .yt-ui-menu-content, .pl-video-edit-remove, .yt-ui-menu-item, #yt-picker-language-button, #yt-picker-country-button, #yt-picker-safetymode-button, #google-help, .yt-picker, .secondary-header-contents, .yt-live-chat-item-list-renderer {
         background: #171b1f !important;
     }
     #masthead-appbar,
@@ -13,7 +13,6 @@
     .branded-page-module-title-text,
     .display-name.no-count,
     .display-name,
-    span.title,
     span.yt-badge,
     #eow-title,
     #eow-description,
@@ -32,13 +31,20 @@
     strong,
     .secondary-header-contents,
     span.nav-text,
-    h4 {
+    h4,
+    .yt-live-chat-item-list-renderer,
+    #message,
+    #author-name {
         color: #b1b1b1 !important;
     }
     .yt-uix-dragdrop-drag-handle,
     .addto-watchlater-button,
     .addto-watchlater-success {
         background: #106696 !important;
+        color: #106696 !important;
+    }
+    span.title,
+    span#eow-title {
         color: #106696 !important;
     }
 }
