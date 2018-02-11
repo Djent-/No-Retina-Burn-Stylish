@@ -98,7 +98,7 @@
 }
 
 @-moz-document domain("github.com") {
-    body, a, h1, h2, h3, .commit-tease, .pagehead, table, td, .file-header, .commit-tease-contributors, .user-mention, .Counter, #js-issues-toolbar, .js-issue-row, ul.pl-2, header, .description, .Header, .discussion-timeline-actions, .timeline-comment, .comment-form-head, article, .CodeMirror-linenumber, .CodeMirror-line, .CodeMirror-scroll, .CodeMirror-gutter, .CodeMirror-lines, .markdown-body, button.btn.btn-sm.btn-with-count.js-toggler-target, span.num.text-emphasized, div.commit.full-commit.px-2.pt-2, div.commit-meta.clearfix.p-2.no-wrap.d-flex.flex-items-center, div.thread-subscription-status, #new_commit_comment_field, p.drag-and-drop.position-relative {
+    body, a, h1, h2, h3, .commit-tease, .pagehead, table, td, .file-header, .commit-tease-contributors, .user-mention, .Counter, #js-issues-toolbar, .js-issue-row, ul.pl-2, header, .description, .Header, .discussion-timeline-actions, .timeline-comment, .comment-form-head, article, .CodeMirror-linenumber, .CodeMirror-line, .CodeMirror-scroll, .CodeMirror-gutter, .CodeMirror-lines, .markdown-body, button.btn.btn-sm.btn-with-count.js-toggler-target, span.num.text-emphasized, div.commit.full-commit.px-2.pt-2, div.commit-meta.clearfix.p-2.no-wrap.d-flex.flex-items-center, div.thread-subscription-status, #new_commit_comment_field, p.drag-and-drop.position-relative, button.btn.btn-sm.BtnGroup-item, .select-menu-header, .select-menu-filters, .select-menu-title, .dashboard-notice.js-notice, .filter-repos.filter-bar, .user-repos .boxed-group-inner, .user-repos .filter-bar, .blankslate, #issue_body {
         background: #171b1f !important;
         color: #b1b1b1 !important;
     }
@@ -109,10 +109,15 @@
     .commit-title {
         color: #106696 !important;
     }
-    div.commit.full-commit.px-2.pt-2 {
+    div.commit.full-commit.px-2.pt-2,
+    .select-menu-list div {
         border-color: #106696 !important;
         border: 1px #106696 !important;
         border-style: solid !important;
+    }
+    .select-menu-modal,
+    .select-menu-tabs {
+        border: 0px;
     }
     .pl-smi,
     strong {
