@@ -1,5 +1,5 @@
 @-moz-document domain("www.youtube.com") {
-    #page, #masthead-appbar, #content, div .yt-card, .yt-uix-sessionlink, .yt-lockup-byline, #yt-masthead-container, #appbar-guide-menu, #masthead-positioner-height-offset, button.edit-button, button.remove-watched-button, button.playlist-add-video-button, button.yt-uix-inlineedit-edit, #footer, #footer-container, #body-container, li.currently-playing, #watch-appbar-playlist, .playlist-title, h4, .yt-uix-scroller-scroll-unit, .pl-video-edit-more, .yt-uix-menu-trigger, .yt-uix-menu-trigger-selected, .yt-uix-menu-content, .yt-ui-menu-content, .pl-video-edit-remove, .yt-ui-menu-item, #yt-picker-language-button, #yt-picker-country-button, #yt-picker-safetymode-button, #google-help, .yt-picker, .secondary-header-contents, .yt-live-chat-item-list-renderer, .yt-lockup-description, .yt-uix-livereminder-main-button {
+    #page, #masthead-appbar, #content, div .yt-card, .yt-uix-sessionlink, .yt-lockup-byline, #yt-masthead-container, #appbar-guide-menu, #masthead-positioner-height-offset, button.edit-button, button.remove-watched-button, button.playlist-add-video-button, button.yt-uix-inlineedit-edit, #footer, #footer-container, #body-container, li.currently-playing, #watch-appbar-playlist, .playlist-title, h4, .yt-uix-scroller-scroll-unit, .pl-video-edit-more, .yt-uix-menu-trigger, .yt-uix-menu-trigger-selected, .yt-uix-menu-content, .yt-ui-menu-content, .pl-video-edit-remove, .yt-ui-menu-item, #yt-picker-language-button, #yt-picker-country-button, #yt-picker-safetymode-button, #google-help, .yt-picker, .secondary-header-contents, .yt-live-chat-item-list-renderer, .yt-lockup-description, .yt-uix-livereminder-main-button, .comment-simplebox, .comment-simplebox-text, .comment-simplebox-cancel {
         background: #171b1f !important;
     }
     #masthead-appbar,
@@ -36,7 +36,9 @@
     #message,
     #author-name,
     .yt-lockup-description,
-    .yt-uix-livereminder-main-button {
+    .yt-uix-livereminder-main-button,
+    .comment-simplebox-text,
+    .comment-simplebox-cancel {
         color: #b1b1b1 !important;
     }
     .yt-uix-dragdrop-drag-handle,
@@ -48,6 +50,9 @@
     span.title,
     span#eow-title {
         color: #106696 !important;
+    }
+    .comment-simplebox-arrow {
+        display: none;
     }
 }
 
