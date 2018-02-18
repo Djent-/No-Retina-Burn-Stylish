@@ -189,4 +189,13 @@
         background: #171b1f !important;
         color: #b1b1b1 !important;
     }
+    input {
+        padding: 1px !important;
+        padding-left: 4px !important;
+        padding-right: 3px !important;
+        border-color: #106696 !important;
+        border: 1px #106696 !important;
+        border-style: solid !important;
+        border-radius: 10px !important;
+    }
 }
