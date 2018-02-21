@@ -123,7 +123,7 @@
 }
 
 @-moz-document domain("github.com") {
-    body, a, h1, h2, h3, .commit-tease, .pagehead, table, td, .file-header, .commit-tease-contributors, .user-mention, .Counter, #js-issues-toolbar, .js-issue-row, ul.pl-2, header, .description, .Header, .discussion-timeline-actions, .timeline-comment, .comment-form-head, article, .CodeMirror-linenumber, .CodeMirror-line, .CodeMirror-scroll, .CodeMirror-gutter, .CodeMirror-lines, .markdown-body, button.btn.btn-sm.btn-with-count.js-toggler-target, span.num.text-emphasized, div.commit.full-commit.px-2.pt-2, div.commit-meta.clearfix.p-2.no-wrap.d-flex.flex-items-center, div.thread-subscription-status, #new_commit_comment_field, p.drag-and-drop.position-relative, button.btn.btn-sm.BtnGroup-item, .select-menu-header, .select-menu-filters, .select-menu-title, .dashboard-notice.js-notice, .filter-repos.filter-bar, .user-repos .boxed-group-inner, .user-repos .filter-bar, .blankslate, #issue_body, .Box-header, li.Box-row, span.num, .timeline-comment-header, .btn-with-count, .thread-subscribe-form button, .text-gray-dark, .js-notice, .user-profile-nav, ul.filter-list, .profile-timeline-month-heading, .profile-timeline-year-list, .ajax-pagination-btn, .user-profile-mini-vcard, .user-profile-sticky-bar::after {
+    body, a, h1, h2, h3, .commit-tease, .pagehead, table, td, .file-header, .commit-tease-contributors, .user-mention, .Counter, #js-issues-toolbar, .js-issue-row, ul.pl-2, header, .description, .Header, .discussion-timeline-actions, .timeline-comment, .comment-form-head, article, .CodeMirror-linenumber, .CodeMirror-line, .CodeMirror-scroll, .CodeMirror-gutter, .CodeMirror-lines, .markdown-body, button.btn.btn-sm.btn-with-count.js-toggler-target, span.num.text-emphasized, div.commit.full-commit.px-2.pt-2, div.commit-meta.clearfix.p-2.no-wrap.d-flex.flex-items-center, div.thread-subscription-status, #new_commit_comment_field, p.drag-and-drop.position-relative, button.btn.btn-sm.BtnGroup-item, .select-menu-header, .select-menu-filters, .select-menu-title, .dashboard-notice.js-notice, .filter-repos.filter-bar, .user-repos .boxed-group-inner, .user-repos .filter-bar, .blankslate, #issue_body, .Box-header, li.Box-row, span.num, .timeline-comment-header, .btn-with-count, .thread-subscribe-form button, .text-gray-dark, .js-notice, .user-profile-nav, ul.filter-list, .profile-timeline-month-heading, .profile-timeline-year-list, .ajax-pagination-btn, .user-profile-mini-vcard, .user-profile-sticky-bar::after, li.commit.open, li.commit.navigation-focus, pre.text-small, .zeroclipboard-button, button.js-details-target, svg.octicon-git-commit, .mergeability-details, div.merge-status-item.d-flex.flex-items-baseline {
         background: #171b1f !important;
         color: #b1b1b1 !important;
     }
@@ -138,17 +138,20 @@
     div.commit.full-commit.px-2.pt-2,
     .select-menu-list div,
     .thread-subscribe-form button,
-    .gh-header-actions a {
+    .gh-header-actions a,
+    button.js-details-target {
         border-color: #106696 !important;
         border: 1px #106696 !important;
         border-style: solid !important;
     }
+    
     .select-menu-modal,
     .select-menu-tabs,
     .timeline-comment-wrapper,
     .user-profile-sticky-bar::after,
-    .user-profile-nav {
-        border: 0px;
+    .user-profile-nav,
+    .branch-action-item div button{
+        border: 0px !important;
     }
     .js-graph svg,
     .tint-box svg,
