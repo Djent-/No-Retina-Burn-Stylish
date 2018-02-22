@@ -75,7 +75,9 @@
     .comment-simplebox-arrow {
         display: none;
     }
-    #guide-button {
+    #guide-button,
+    .yt-uix-button-icon-material-upload,
+    #yt-masthead-notifications-button {
         border: 1px #106696 !important;
         border-style: solid !important;
     }
