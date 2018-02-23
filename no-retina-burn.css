@@ -208,3 +208,24 @@
         border-radius: 10px !important;
     }
 }
+
+@-moz-document domain("dwarffortresswiki.org") {
+    body, p, span, div, input, table, code, td {
+        background: #171b1f !important;
+        color: #b1b1b1 !important;
+    }
+    a, b {
+        color: #106696 !important;
+    }
+    .version-table {
+        border-color: #106696 !important;
+        border: 1px #106696 !important;
+        border-style: solid !important;
+    }
+    .version-table {
+        margin-top: 5px !important;
+    }
+    span {
+    	text-shadow: none !important;
+    }
+}
