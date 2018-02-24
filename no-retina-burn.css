@@ -114,13 +114,19 @@
 }
 
 @-moz-document domain("omz-software.com") {
-    body, .document, #module-ui, a, h1, h2, h3, .pre, tt {
+    body, .document, #module-ui, a, h1, h2, h3, tt, div, nav {
         background: #171b1f !important;
         color: #b1b1b1 !important;
     }
     pre {
-        background: #909090;
+        background: #06006e;
         border: rgba(0, 0, 0, 0);
+    }
+    a tt span {
+        color: #106696 !important;
+    }
+    .highlight .o {
+        color: #8d901a !important;
     }
 }
 
