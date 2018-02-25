@@ -114,12 +114,12 @@
 }
 
 @-moz-document domain("omz-software.com") {
-    html, body, .document, #module-ui, a, h1, h2, h3, tt, div, nav {
+    html, body, .document, #module-ui, a, h1, h2, h3, tt, div, nav, code, input, select, button {
         background: #171b1f !important;
         color: #b1b1b1 !important;
     }
-    pre {
-        background: #06006e;
+    pre, pre code {
+        background: #06006e !important;
         border: rgba(0, 0, 0, 0);
     }
     a tt span {
@@ -127,6 +127,17 @@
     }
     .highlight .o {
         color: #8d901a !important;
+    }
+    .fade-out {
+        display: none;
+    }
+    .python {
+        color: aquamarine !important;
+    }
+    input, select, button {
+        border-color: #106696 !important;
+        border: 1px #106696 !important;
+        border-style: solid !important;
     }
 }
 
@@ -149,7 +160,8 @@
     .gh-header-actions a,
     button.ellipsis-expander,
     .js-edit-repo-meta-togglem,
-    button.select-menu-button {
+    button.select-menu-button,
+    .highlight pre {
         border-color: #106696 !important;
         border: 1px #106696 !important;
         border-style: solid !important;
@@ -189,6 +201,9 @@
     }
     span.blob-code-inner {
         color: #657280;
+    }
+    .highlight pre {
+        background: #171b1f !important;
     }
 }
 
@@ -245,6 +260,31 @@
         background-image: none !important;
     }
     .header__search, .search-wrap--home {
+        border-color: #106696 !important;
+        border: 1px #106696 !important;
+        border-style: solid !important;
+    }
+}
+
+@-moz-document domain("docs.python-requests.org") {
+    html, body, input, .body, p, .note {
+        background: #171b1f !important;
+        color: #b1b1b1 !important;
+    }
+    a, h3 {
+        color: #106696 !important;
+    }
+}
+
+@-moz-document domain("pypi.python.org") {
+    html, body, input, p, h1, #document-navigation, pre, a {
+        background: #171b1f !important;
+        color: #b1b1b1 !important;
+    }
+    a, h3 {
+        color: #106696 !important;
+    }
+    input, select, button, pre {
         border-color: #106696 !important;
         border: 1px #106696 !important;
         border-style: solid !important;
