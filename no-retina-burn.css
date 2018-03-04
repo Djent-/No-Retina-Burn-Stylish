@@ -88,7 +88,11 @@
 
 @-moz-document domain("kitsu.io") {
     html, .global-container, tr, div.card, body, .modal-content, .modal-footer,
-    .favorite-series-panel .nav-tabs, .nav-link .active {
+    .favorite-series-panel .nav-tabs, .nav-link .active, .add-content-header,
+    .stream-content-editor, .add-content-footer, .tag-media div div input,
+    .add-content-expanded, .library-issues--title span, .settings--header,
+    .import-option, .stream-item, .stream-item--title-block, .aggregate-date,
+    .aggregate-wrapper button {
         background: #171b1f !important;
     }
     nav {
@@ -107,11 +111,22 @@
     h5, h6,
     label,
     .about-me-panel p,
-    .about-me-stats {
+    .about-me-stats,
+    .stream-content-editor,
+    .tag-media div div input,
+    .library-issues--title span,
+    .import-option span,
+    .stream-item, .aggregate-date,
+    .aggregate-wrapper button{
         color: #b1b1b1 !important;
     }
     .nav-link .active {
         border: #171b1f !important;
+    }
+    .stream-add-content {
+        border: #106696 !important;
+        border-width: 1px !important;
+        border-style: solid !important;
     }
 }
 
