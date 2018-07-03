@@ -342,3 +342,34 @@
         border-style: solid !important;
     }
 }
+
+@-moz-document domain("www.roguebasin.com") {
+    /*
+    --background-grey: #171b1f;
+    --text-grey: #b1b1b1;
+    --text-blue: #106696;
+    */
+
+    html, body, p, #content, h1, .toc, h2, h3, h4, h5, table, .pBody, .pBody ul li a {
+    	background:  #171b1f !important;
+    	color: #b1b1b1 !important;
+    }
+    
+    a, .de1 {
+        color: #106696 !important;
+    }
+    
+    .nu0, .sy0 {
+    	color: #b1b1b1 !important;
+    }
+    
+    table {
+        border-color: #106696 !important;
+        border: 1px #106696 !important;
+        border-style: solid !important;
+    }
+    
+    li.selected {
+        border-color: #106696 !important;
+    }
+}
