@@ -1,5 +1,5 @@
 @-moz-document domain("www.youtube.com") {
-    html, #page, #masthead-appbar, #content, div .yt-card, .yt-uix-sessionlink, .yt-lockup-byline, #yt-masthead-container, #appbar-guide-menu, #masthead-positioner-height-offset, button.edit-button, button.remove-watched-button, button.playlist-add-video-button, button.yt-uix-inlineedit-edit, #footer, #footer-container, #body-container, li.currently-playing, #watch-appbar-playlist, .playlist-title, h4, .yt-uix-scroller-scroll-unit, .pl-video-edit-more, .yt-uix-menu-trigger, .yt-uix-menu-trigger-selected, .yt-uix-menu-content, .yt-ui-menu-content, .pl-video-edit-remove, .yt-ui-menu-item, #yt-picker-language-button, #yt-picker-country-button, #yt-picker-safetymode-button, #google-help, .yt-picker, .secondary-header-contents, .yt-live-chat-item-list-renderer, .yt-lockup-description, .yt-uix-livereminder-main-button, .comment-simplebox, .comment-simplebox-text, .comment-simplebox-cancel, .dashboard-widget-header, .dashboard-widget-padded-content, .dashboard-widget-view-all-link, .shelf-description, .yt-uix-button, .ytd-masthead, ytd-guide-section-renderer, ytd-playlist-sidebar-renderer, ytd-section-list-renderer, #non-appbar-vm-video-actions-bar, .vm-video-item, .yt-uix-pager, #vm-pagination, yt-live-chat-header-renderer, yt-live-chat-message-input-renderer {
+html, #page, #masthead-appbar, #content, div .yt-card, .yt-uix-sessionlink, .yt-lockup-byline, #yt-masthead-container, #appbar-guide-menu, #masthead-positioner-height-offset, button.edit-button, button.remove-watched-button, button.playlist-add-video-button, button.yt-uix-inlineedit-edit, #footer, #footer-container, #body-container, li.currently-playing, #watch-appbar-playlist, .playlist-title, h4, .yt-uix-scroller-scroll-unit, .pl-video-edit-more, .yt-uix-menu-trigger, .yt-uix-menu-trigger-selected, .yt-uix-menu-content, .yt-ui-menu-content, .pl-video-edit-remove, .yt-ui-menu-item, #yt-picker-language-button, #yt-picker-country-button, #yt-picker-safetymode-button, #google-help, .yt-picker, .secondary-header-contents, .yt-live-chat-item-list-renderer, .yt-lockup-description, .yt-uix-livereminder-main-button, .comment-simplebox, .comment-simplebox-text, .comment-simplebox-cancel, .dashboard-widget-header, .dashboard-widget-padded-content, .dashboard-widget-view-all-link, .shelf-description, .yt-uix-button, .ytd-masthead, ytd-guide-section-renderer, ytd-playlist-sidebar-renderer, ytd-section-list-renderer, #non-appbar-vm-video-actions-bar, .vm-video-item, .yt-uix-pager, #vm-pagination, yt-live-chat-header-renderer, yt-live-chat-message-input-renderer {
         background: #171b1f !important;
     }
     #masthead-appbar,
@@ -87,12 +87,12 @@
 }
 
 @-moz-document domain("kitsu.io") {
-    html, .global-container, tr, div.card, body, .modal-content, .modal-footer,
+html, .global-container, tr, div.card, body, .modal-content, .modal-footer,
     .favorite-series-panel .nav-tabs, .nav-link .active, .add-content-header,
     .stream-content-editor, .add-content-footer, .tag-media div div input,
     .add-content-expanded, .library-issues--title span, .settings--header,
     .import-option, .stream-item, .stream-item--title-block, .aggregate-date,
-    .aggregate-wrapper button {
+    .aggregate-wrapper button, .tagged-media, .add-comment-wrapper {
         background: #171b1f !important;
     }
     nav {
@@ -123,22 +123,29 @@
     .nav-link .active {
         border: #171b1f !important;
     }
-    .stream-add-content {
+    .stream-add-content, .add-comment-wrapper {
         border: #106696 !important;
         border-width: 1px !important;
         border-style: solid !important;
     }
+    .nav-item.active {
+        background: #105686 !important;
+        border: #106696 !important;
+        border-width: 1px !important;
+        border-style: solid !important;
+        color: rgb(177, 177, 177) !important;
+    }
 }
 
 @-moz-document domain("news.ycombinator.com") {
-    html, body, table, a, span {
+html, body, table, a, span {
         background: #171b1f !important;
         color: #b1b1b1 !important;
     }
 }
 
 @-moz-document domain("omz-software.com") {
-    html, body, .document, #module-ui, a, h1, h2, h3, tt, div, nav, code, input, select, button {
+html, body, .document, #module-ui, a, h1, h2, h3, tt, div, nav, code, input, select, button {
         background: #171b1f !important;
         color: #b1b1b1 !important;
     }
@@ -166,7 +173,7 @@
 }
 
 @-moz-document domain("github.com") {
-    html, body, a, h1, h2, h3, .commit-tease, .pagehead, table, td, .file-header, .commit-tease-contributors, .user-mention, .Counter, #js-issues-toolbar, .js-issue-row, ul.pl-2, header, .description, .Header, .discussion-timeline-actions, .timeline-comment, .comment-form-head, article, .CodeMirror-linenumber, .CodeMirror-line, .CodeMirror-scroll, .CodeMirror-gutter, .CodeMirror-lines, .markdown-body, button.btn.btn-sm.btn-with-count.js-toggler-target, span.num.text-emphasized, div.commit.full-commit.px-2.pt-2, div.commit-meta.clearfix.p-2.no-wrap.d-flex.flex-items-center, div.thread-subscription-status, #new_commit_comment_field, p.drag-and-drop.position-relative, button.btn.btn-sm.BtnGroup-item, .select-menu-header, .select-menu-filters, .select-menu-title, .dashboard-notice.js-notice, .filter-repos.filter-bar, .user-repos .boxed-group-inner, .user-repos .filter-bar, .blankslate, #issue_body, .Box-header, li.Box-row, span.num, .timeline-comment-header, .btn-with-count, .thread-subscribe-form button, .text-gray-dark, .js-notice, .user-profile-nav, ul.filter-list, .profile-timeline-month-heading, .profile-timeline-year-list, .ajax-pagination-btn, .user-profile-mini-vcard, .user-profile-sticky-bar::after, li.commit.open, li.commit.navigation-focus, pre.text-small, .zeroclipboard-button, button.js-details-target, svg.octicon-git-commit, .mergeability-details, div.merge-status-item.d-flex.flex-items-baseline, button.select-menu-button, input#context-commitish-filter-field, a span.tag-name, .pr-toolbar, .diffbar, button strong, .closed-banner, a code, nav .selected, #new_comment_field, #partial-new-comment-form-actions button, .comment-body pre, #progressive-timeline-item-container form, .discussion-item-header .Box.d-inl, ine-flex, .Box.d-inline-flex button, clipboard-copy, #js-issues-search, #your-repos-filter, #org-repositories div div, .auto-search-group input, .follow form button, .repository-content .mb-3 {
+html, body, a, h1, h2, h3, .commit-tease, .pagehead, table, td, .file-header, .commit-tease-contributors, .user-mention, .Counter, #js-issues-toolbar, .js-issue-row, ul.pl-2, header, .description, .Header, .discussion-timeline-actions, .timeline-comment, .comment-form-head, article, .CodeMirror-linenumber, .CodeMirror-line, .CodeMirror-scroll, .CodeMirror-gutter, .CodeMirror-lines, .markdown-body, button.btn.btn-sm.btn-with-count.js-toggler-target, span.num.text-emphasized, div.commit.full-commit.px-2.pt-2, div.commit-meta.clearfix.p-2.no-wrap.d-flex.flex-items-center, div.thread-subscription-status, #new_commit_comment_field, p.drag-and-drop.position-relative, button.btn.btn-sm.BtnGroup-item, .select-menu-header, .select-menu-filters, .select-menu-title, .dashboard-notice.js-notice, .filter-repos.filter-bar, .user-repos .boxed-group-inner, .user-repos .filter-bar, .blankslate, #issue_body, .Box-header, li.Box-row, span.num, .timeline-comment-header, .btn-with-count, .thread-subscribe-form button, .text-gray-dark, .js-notice, .user-profile-nav, ul.filter-list, .profile-timeline-month-heading, .profile-timeline-year-list, .ajax-pagination-btn, .user-profile-mini-vcard, .user-profile-sticky-bar::after, li.commit.open, li.commit.navigation-focus, pre.text-small, .zeroclipboard-button, button.js-details-target, svg.octicon-git-commit, .mergeability-details, div.merge-status-item.d-flex.flex-items-baseline, button.select-menu-button, input#context-commitish-filter-field, a span.tag-name, .pr-toolbar, .diffbar, button strong, .closed-banner, a code, nav .selected, #new_comment_field, #partial-new-comment-form-actions button, .comment-body pre, #progressive-timeline-item-container form, .discussion-item-header .Box.d-inl, ine-flex, .Box.d-inline-flex button, clipboard-copy, #js-issues-search, #your-repos-filter, #org-repositories div div, .auto-search-group input, .follow form button, .repository-content .mb-3 {
         background: #171b1f !important;
         color: #b1b1b1 !important;
     }
@@ -244,14 +251,14 @@
 }
 
 @-moz-document domain("twitter.com") {
-    html, body, .global-nav-inner, .tweet, .module, .home-tweet-box, .flex-module, .Footer, strong, .inline-reply-tweetbox, p, .ProfileNav-list, .ProfileHeading-toggle, .ProfileCanopy-navBar.u-boxShadow, .ProfileNav-item, li.is-active span, .ActivityItem, .QuoteTweet-innerContainer, .tweet-content, .QuoteTweet-text, h3, .DMActivity-header, .DMInbox-tab, h2, .DMInbox-conversationItem, b, .DMInboxItem, .recap-header {
+html, body, .global-nav-inner, .tweet, .module, .home-tweet-box, .flex-module, .Footer, strong, .inline-reply-tweetbox, p, .ProfileNav-list, .ProfileHeading-toggle, .ProfileCanopy-navBar.u-boxShadow, .ProfileNav-item, li.is-active span, .ActivityItem, .QuoteTweet-innerContainer, .tweet-content, .QuoteTweet-text, h3, .DMActivity-header, .DMInbox-tab, h2, .DMInbox-conversationItem, b, .DMInboxItem, .recap-header {
         background: #171b1f !important;
         color: #b1b1b1 !important;
     }
 }
 
 @-moz-document domain("www.google.com") {
-    html, body, .fbar, a, p, span, div, input {
+html, body, .fbar, a, p, span, div, input {
         background: #171b1f !important;
         color: #b1b1b1 !important;
     }
@@ -267,7 +274,7 @@
 }
 
 @-moz-document domain("encrypted.google.com") {
-    html, body, .fbar, a, p, span, div, input {
+html, body, .fbar, a, p, span, div, input {
         background: #171b1f !important;
         color: #b1b1b1 !important;
     }
@@ -283,7 +290,7 @@
 }
 
 @-moz-document domain("dwarffortresswiki.org") {
-    html, body, p, span, div, input, table, code, td {
+html, body, p, span, div, input, table, code, td {
         background: #171b1f !important;
         color: #b1b1b1 !important;
     }
@@ -304,7 +311,7 @@
 }
 
 @-moz-document domain("duckduckgo.com") {
-    html, body, .header, .header--aside, #header_wrapper, form, input, .highlight, .acp-wrap, .acp--highlight, .onboarding-ed__slide {
+html, body, .header, .header--aside, #header_wrapper, form, input, .highlight, .acp-wrap, .acp--highlight, .onboarding-ed__slide {
         background: #171b1f !important;
         color: #b1b1b1 !important;
     }
@@ -319,7 +326,7 @@
 }
 
 @-moz-document domain("docs.python-requests.org") {
-    html, body, input, .body, p, .note {
+html, body, input, .body, p, .note {
         background: #171b1f !important;
         color: #b1b1b1 !important;
     }
@@ -329,7 +336,7 @@
 }
 
 @-moz-document domain("pypi.python.org") {
-    html, body, input, p, h1, #document-navigation, pre, a {
+html, body, input, p, h1, #document-navigation, pre, a {
         background: #171b1f !important;
         color: #b1b1b1 !important;
     }
@@ -344,7 +351,7 @@
 }
 
 @-moz-document domain("www.roguebasin.com") {
-    /*
+/*
     --background-grey: #171b1f;
     --text-grey: #b1b1b1;
     --text-blue: #106696;
@@ -372,4 +379,21 @@
     li.selected {
         border-color: #106696 !important;
     }
+}
+
+@-moz-document domain("myanimelist.net") {
+html, body, p, #content, h1, h2, h3, h4, h5, table, .initialize-tutorial, .icon-user-function, .user-status li, #contentWrapper, #footer-block, #headerSmall, .td1, .td1 a span, .td1 div small a, .td1 a, .status_not_selected, .status_not_selected a, .ranking-digest ul, .ranking-digest, .normal_header, .navi-seasonal, .seasonal-anime div div, #hide-advanced-button, .header-notification-item-list, .header-notification-view-all a, #horiznav_nav ul li a, #horiznav_nav ul li, .button_add {
+    background:  #171b1f !important;
+    color: #b1b1b1 !important;
+}
+.td2, .td2 a span, .td2 div small a, .td2 a, .table_header, .table_header a strong, .table_header strong a, .table_header b a, .status_selected, .status_selected a, .genre {
+    background:  #105686 !important;
+    color: #171b1f !important;
+}
+.button_edit, .button_add, .initialize-tutorial, .h1, #content, .left-column, .borderClass, .item, .news-unit, div.genre-list.al, .seasonal-anime, #dialog {
+    border: 0px !important;
+}
+.genre a {
+    color: white !important;
+}
 }
