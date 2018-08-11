@@ -92,10 +92,11 @@ html, .global-container, tr, div.card, body, .modal-content, .modal-footer,
     .stream-content-editor, .add-content-footer, .tag-media div div input,
     .add-content-expanded, .library-issues--title span, .settings--header,
     .import-option, .stream-item, .stream-item--title-block, .aggregate-date,
-    .aggregate-wrapper button, .tagged-media, .add-comment-wrapper {
+    .aggregate-wrapper button, .tagged-media, .add-comment-wrapper,
+    .stream-item-comments, .timeline-link.active, .media-browse div {
         background: #171b1f !important;
     }
-    nav {
+    nav, .stream-item-comments {
         background: 0 0 !important;
         border: rgba(0, 0, 0, 0) !important;
     }
@@ -134,6 +135,9 @@ html, .global-container, tr, div.card, body, .modal-content, .modal-footer,
         border-width: 1px !important;
         border-style: solid !important;
         color: rgb(177, 177, 177) !important;
+    }
+    .media.new-comment {
+        border-width: 0px !important;
     }
 }
 
