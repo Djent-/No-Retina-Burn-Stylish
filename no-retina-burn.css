@@ -401,3 +401,18 @@ html, body, p, #content, h1, h2, h3, h4, h5, table, .initialize-tutorial, .icon-
     color: white !important;
 }
 }
+
+@-moz-document domain("dobrazupa.org") {
+.page_content, .page, .page_back, .toplinks, tr.even td, th, td, .player_clan {
+    background:  #171b1f !important;
+    color: #b1b1b1 !important;
+}
+
+a {
+    color: #106696 !important;
+}
+
+hr {
+    border: 0px !important;
+}
+}
