@@ -230,6 +230,14 @@ html, body, a, h1, h2, h3, .commit-tease, .pagehead, table, td, .file-header, .c
     .tint-box {
         background: #106696 !important;
     }
+    .blob-code-addition, .blob-code-addition span {
+        color: black !important;
+        background: #106696 !important;
+    }
+    .blob-code-deletion {
+        color: black !important;
+        background: #49095a !important;
+    }
     .pl-s {
         color: #01499c;
     }
