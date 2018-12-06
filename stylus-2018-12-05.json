@@ -1,0 +1,104 @@
+[
+	{
+		"installDate": 1530653464034,
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"name": "Make everything dark",
+		"sections": [
+			{
+				"code": "html, #page, #masthead-appbar, #content, div .yt-card, .yt-uix-sessionlink, .yt-lockup-byline, #yt-masthead-container, #appbar-guide-menu, #masthead-positioner-height-offset, button.edit-button, button.remove-watched-button, button.playlist-add-video-button, button.yt-uix-inlineedit-edit, #footer, #footer-container, #body-container, li.currently-playing, #watch-appbar-playlist, .playlist-title, h4, .yt-uix-scroller-scroll-unit, .pl-video-edit-more, .yt-uix-menu-trigger, .yt-uix-menu-trigger-selected, .yt-uix-menu-content, .yt-ui-menu-content, .pl-video-edit-remove, .yt-ui-menu-item, #yt-picker-language-button, #yt-picker-country-button, #yt-picker-safetymode-button, #google-help, .yt-picker, .secondary-header-contents, .yt-live-chat-item-list-renderer, .yt-lockup-description, .yt-uix-livereminder-main-button, .comment-simplebox, .comment-simplebox-text, .comment-simplebox-cancel, .dashboard-widget-header, .dashboard-widget-padded-content, .dashboard-widget-view-all-link, .shelf-description, .yt-uix-button, .ytd-masthead, ytd-guide-section-renderer, ytd-playlist-sidebar-renderer, ytd-section-list-renderer, #non-appbar-vm-video-actions-bar, .vm-video-item, .yt-uix-pager, #vm-pagination, yt-live-chat-header-renderer, yt-live-chat-message-input-renderer, .yt-live-chat-viewer-engagement-message-renderer, .title.yt-ui-ellipsis, .description.yt-uix-expander .yt-ui-ellipsis, .description.yt-uix-expander, #masthead-search-term {\n        background: #171b1f !important;\n    }\n    #masthead-appbar,\n    #yt-masthead-container,\n    div#appbar-guide-menu,\n    #watch8-action-buttons {\n        border: #171b1f !important;\n    }\n    .epic-nav-item-heading,\n    .yt-uix-button-content,\n    .branded-page-module-title-text,\n    .display-name.no-count,\n    .display-name,\n    span.yt-badge,\n    #eow-title,\n    #eow-description,\n    .yt-uix-sessionlink,\n    .comment-renderer-text-content,\n    .watch-time-text,\n    .pl-header-title,\n    #footer-links-primary li a,\n    .yt-ui-menu-item,\n    #yt-picker-language-button,\n    #yt-picker-country-button,\n    #yt-picker-safetymode-button,\n    #google-help,\n    .yt-picker,\n    h3,\n    strong,\n    .secondary-header-contents,\n    span.nav-text,\n    h4,\n    .yt-live-chat-item-list-renderer,\n    #message,\n    #author-name,\n    .yt-lockup-description,\n    .yt-uix-livereminder-main-button,\n    .comment-simplebox-text,\n    .comment-simplebox-cancel,\n    h2 a,\n    p.total,\n    .dashboard-widget-header,\n    .dashboard-widget-padded-content,\n    .shelf-description,\n    .yt-uix-button,\n    ytd-guide-section-renderer,\n    ytd-playlist-sidebar-renderer,\n    ytd-section-list-renderer,\n    .yt-formatted-string,\n    yt-formatted-string,\n    .ytd-grid-video-renderer,\n    #title,\n    .vm-video-side-view-count a,\n    yt-live-chat-header-renderer,\n    paper-button #label-text, \n    yt-live-chat-message-input-renderer, .description.yt-uix-expander .yt-ui-ellipsis, #masthead-search-term {\n        color: #b1b1b1 !important;\n    }\n    .yt-uix-dragdrop-drag-handle,\n    .addto-watchlater-button,\n    .addto-watchlater-success {\n        background: #106696 !important;\n        color: #106696 !important;\n    }\n    h2 a,\n    li div,\n    .dashboard-channel-link {\n        text-shadow: None !important;\n    }\n    span.title,\n    span#eow-title,\n    .dashboard-widget-view-all-link,\n    #video-title, .title.yt-ui-ellipsis a {\n        color: #106696 !important;\n    }\n    .comment-simplebox-arrow {\n        display: none;\n    }\n    #guide-button,\n    .yt-uix-button-icon-material-upload,\n    #yt-masthead-notifications-button {\n        border: 1px #106696 !important;\n        border-style: solid !important;\n    }",
+				"domains": [
+					"www.youtube.com"
+				]
+			},
+			{
+				"code": "html, .global-container, tr, div.card, body, .modal-content, .modal-footer,\n    .favorite-series-panel .nav-tabs, .nav-link .active, .add-content-header,\n    .stream-content-editor, .add-content-footer, .tag-media div div input,\n    .add-content-expanded, .library-issues--title span, .settings--header,\n    .import-option, .stream-item, .stream-item--title-block, .aggregate-date,\n    .aggregate-wrapper button, .tagged-media, .add-comment-wrapper,\n    .stream-item-comments, .timeline-link.active, .media-browse div {\n        background: #171b1f !important;\n    }\n    nav, .stream-item-comments {\n        background: 0 0 !important;\n        border: rgba(0, 0, 0, 0) !important;\n    }\n    .dark-cover-overlay,\n    input#search,\n    .library-search-input {\n        background: 0 0 !important;\n    }\n    .library-search-input,\n    th,\n    .title-wrapper a,\n    .current-rating,\n    h5, h6,\n    label,\n    .about-me-panel p,\n    .about-me-stats,\n    .stream-content-editor,\n    .tag-media div div input,\n    .library-issues--title span,\n    .import-option span,\n    .stream-item, .aggregate-date,\n    .aggregate-wrapper button{\n        color: #b1b1b1 !important;\n    }\n    .nav-link .active {\n        border: #171b1f !important;\n    }\n    .stream-add-content, .add-comment-wrapper {\n        border: #106696 !important;\n        border-width: 1px !important;\n        border-style: solid !important;\n    }\n    .nav-item.active {\n        background: #105686 !important;\n        border: #106696 !important;\n        border-width: 1px !important;\n        border-style: solid !important;\n        color: rgb(177, 177, 177) !important;\n    }\n    .media.new-comment {\n        border-width: 0px !important;\n    }",
+				"domains": [
+					"kitsu.io"
+				]
+			},
+			{
+				"code": "html, body, table, a, span {\n        background: #171b1f !important;\n        color: #b1b1b1 !important;\n    }",
+				"domains": [
+					"news.ycombinator.com"
+				]
+			},
+			{
+				"code": "html, body, .document, #module-ui, a, h1, h2, h3, tt, div, nav, code, input, select, button {\n        background: #171b1f !important;\n        color: #b1b1b1 !important;\n    }\n    pre, pre code {\n        background: #06006e !important;\n        border: rgba(0, 0, 0, 0);\n    }\n    a tt span {\n        color: #106696 !important;\n    }\n    .highlight .o {\n        color: #8d901a !important;\n    }\n    .fade-out {\n        display: none;\n    }\n    .python {\n        color: aquamarine !important;\n    }\n    input, select, button {\n        border-color: #106696 !important;\n        border: 1px #106696 !important;\n        border-style: solid !important;\n    }",
+				"domains": [
+					"omz-software.com"
+				]
+			},
+			{
+				"code": "html, body, a, h1, h2, h3, .commit-tease, .pagehead, table, td, .file-header, .commit-tease-contributors, .user-mention, .Counter, #js-issues-toolbar, .js-issue-row, ul.pl-2, header, .description, .Header, .discussion-timeline-actions, .timeline-comment, .comment-form-head, article, .CodeMirror-linenumber, .CodeMirror-line, .CodeMirror-scroll, .CodeMirror-gutter, .CodeMirror-lines, .markdown-body, button.btn.btn-sm.btn-with-count.js-toggler-target, span.num.text-emphasized, div.commit.full-commit.px-2.pt-2, div.commit-meta.clearfix.p-2.no-wrap.d-flex.flex-items-center, div.thread-subscription-status, #new_commit_comment_field, p.drag-and-drop.position-relative, button.btn.btn-sm.BtnGroup-item, .select-menu-header, .select-menu-filters, .select-menu-title, .dashboard-notice.js-notice, .filter-repos.filter-bar, .user-repos .boxed-group-inner, .user-repos .filter-bar, .blankslate, #issue_body, .Box-header, li.Box-row, span.num, .timeline-comment-header, .btn-with-count, .thread-subscribe-form button, .text-gray-dark, .js-notice, .user-profile-nav, ul.filter-list, .profile-timeline-month-heading, .profile-timeline-year-list, .ajax-pagination-btn, .user-profile-mini-vcard, .user-profile-sticky-bar::after, li.commit.open, li.commit.navigation-focus, pre.text-small, .zeroclipboard-button, button.js-details-target, svg.octicon-git-commit, .mergeability-details, div.merge-status-item.d-flex.flex-items-baseline, button.select-menu-button, input#context-commitish-filter-field, a span.tag-name, .pr-toolbar, .diffbar, button strong, .closed-banner, a code, nav .selected, #new_comment_field, #partial-new-comment-form-actions button, .comment-body pre, #progressive-timeline-item-container form, .discussion-item-header .Box.d-inl, ine-flex, .Box.d-inline-flex button, clipboard-copy, #js-issues-search, #your-repos-filter, #org-repositories div div, .auto-search-group input, .follow form button, .repository-content .mb-3, .Box-body, .Box.p-3.mt-2, details-menu, .merge-message, #deployment_environment_github-pages .Box-row.d-flex, summary.btn, .js-repo-features-form .Box, .bg-blue-light.border.border-blue-light.rounded-1.pl-5.p-3.my-3, .js-merge-features-form, #options_bucket .Box, .access-form-wrapper, span.lang, span.percent, #repo-meta-edit summary div div span, .activity-overview-box, .profile-timeline-card, .Popover-message, div.bg-gray-light.border-bottom, .container-lg, .blame-blob-num, button.btn, .js-notification, .js-blob-edit-tab, select {\n        background: #171b1f !important;\n        color: #b1b1b1 !important;\n    }\n    input,\n    #new-comment-field {\n        background: 0 0;\n    }\n    .commit-title,\n    .text-emphasized {\n        color: #106696 !important;\n    }\n    div.commit.full-commit.px-2.pt-2,\n    .select-menu-list div,\n    .thread-subscribe-form button,\n    .gh-header-actions a,\n    button.ellipsis-expander,\n    .js-edit-repo-meta-togglem,\n    button.select-menu-button,\n    .highlight pre,\n    nav .selected,\n    #partial-new-comment-form-actions button,\n    .comment-body pre,\n    #your-repos-filter,\n    .follow form button, summary.btn, #repo-meta-edit summary div div span.btn, button.btn {\n        border-color: #106696 !important;\n        border: 1px #106696 !important;\n        border-style: solid !important;\n    }\n    .select-menu-modal,\n    .select-menu-tabs,\n    .timeline-comment-wrapper,\n    .user-profile-sticky-bar::after,\n    .user-profile-nav,\n    .branch-action-item div button,\n    button.btn-link.f6.h-condensed.js-repo-topics-form-toggle.js-details-target,\n    .diffbar-item button {\n        border: 0px !important;\n        border-style: none !important;\n    }\n    .js-graph svg,\n    .tint-box svg,\n    .contributors-master {\n        background: #b1b1b1 !important;\n    }\n    .pl-smi,\n    strong {\n        background: #171b1f !important;\n        color: white !important;\n    }\n    .tint-box {\n        background: #106696 !important;\n    }\n    .blob-code-addition, .blob-code-addition span {\n        color: black !important;\n        background: #106696 !important;\n    }\n    .blob-code-deletion {\n        color: black !important;\n        background: #49095a !important;\n    }\n    .pl-s {\n        color: #01499c;\n    }\n    .link-gray-dark {\n        color: #698096 !important;\n    }\n    .cm-string {\n        color: #005bc5;\n    }\n    span.blob-code-inner {\n        color: #657280;\n    }\n    .highlight pre {\n        background: #171b1f !important;\n    }\n    .closed-banner {\n        border-bottom-color: #171b1f !important;\n    }\n    .IssueLabel a {\n        background: rgba(0, 0, 0, 0) !important;\n        color: black !important;\n    }\n    .border-bottom {\n        border-bottom: 0px solid #657280 !important;\n    }\n    .blob-code {\n        color: #d1d1d1 !important;\n    }\n    .tabnav-tab.js-blob-edit-tab {\n        border-color: #d1d5da !important;\n        border-radius: 3px 3px 0 0 !important;\n    }",
+				"domains": [
+					"github.com"
+				]
+			},
+			{
+				"code": "html, body, .global-nav-inner, .tweet, .module, .home-tweet-box, .flex-module, .Footer, strong, .inline-reply-tweetbox, p, .ProfileNav-list, .ProfileHeading-toggle, .ProfileCanopy-navBar.u-boxShadow, .ProfileNav-item, li.is-active span, .ActivityItem, .QuoteTweet-innerContainer, .tweet-content, .QuoteTweet-text, h3, .DMActivity-header, .DMInbox-tab, h2, .DMInbox-conversationItem, b, .DMInboxItem, .recap-header {\n        background: #171b1f !important;\n        color: #b1b1b1 !important;\n    }",
+				"domains": [
+					"twitter.com"
+				]
+			},
+			{
+				"code": "html, body, .fbar, a, p, span, div, input {\n        background: #171b1f !important;\n        color: #b1b1b1 !important;\n    }\n    input {\n        padding: 1px !important;\n        padding-left: 4px !important;\n        padding-right: 3px !important;\n        border-color: #106696 !important;\n        border: 1px #106696 !important;\n        border-style: solid !important;\n        border-radius: 10px !important;\n    }",
+				"domains": [
+					"www.google.com"
+				]
+			},
+			{
+				"code": "html, body, .fbar, a, p, span, div, input {\n        background: #171b1f !important;\n        color: #b1b1b1 !important;\n    }\n    input {\n        padding: 1px !important;\n        padding-left: 4px !important;\n        padding-right: 3px !important;\n        border-color: #106696 !important;\n        border: 1px #106696 !important;\n        border-style: solid !important;\n        border-radius: 10px !important;\n    }",
+				"domains": [
+					"encrypted.google.com"
+				]
+			},
+			{
+				"code": "html, body, p, span, div, input, table, code, td {\n        background: #171b1f !important;\n        color: #b1b1b1 !important;\n    }\n    a, b {\n        color: #106696 !important;\n    }\n    .version-table {\n        border-color: #106696 !important;\n        border: 1px #106696 !important;\n        border-style: solid !important;\n    }\n    .version-table {\n        margin-top: 5px !important;\n    }\n    span {\n    \ttext-shadow: none !important;\n    }",
+				"domains": [
+					"dwarffortresswiki.org"
+				]
+			},
+			{
+				"code": "html, body, .header, .header--aside, #header_wrapper, form, input, .highlight, .acp-wrap, .acp--highlight, .onboarding-ed__slide {\n        background: #171b1f !important;\n        color: #b1b1b1 !important;\n    }\n    .search-filters-wrap::before, .search-filters-wrap::after {\n        background-image: none !important;\n    }\n    .header__search, .search-wrap--home {\n        border-color: #106696 !important;\n        border: 1px #106696 !important;\n        border-style: solid !important;\n    }",
+				"domains": [
+					"duckduckgo.com"
+				]
+			},
+			{
+				"code": "html, body, input, .body, p, .note {\n        background: #171b1f !important;\n        color: #b1b1b1 !important;\n    }\n    a, h3 {\n        color: #106696 !important;\n    }",
+				"domains": [
+					"docs.python-requests.org"
+				]
+			},
+			{
+				"code": "html, body, input, p, h1, #document-navigation, pre, a {\n        background: #171b1f !important;\n        color: #b1b1b1 !important;\n    }\n    a, h3 {\n        color: #106696 !important;\n    }\n    input, select, button, pre {\n        border-color: #106696 !important;\n        border: 1px #106696 !important;\n        border-style: solid !important;\n    }",
+				"domains": [
+					"pypi.python.org"
+				]
+			},
+			{
+				"code": "/*\n    --background-grey: #171b1f;\n    --text-grey: #b1b1b1;\n    --text-blue: #106696;\n    */\n\n    html, body, p, #content, h1, .toc, h2, h3, h4, h5, table, .pBody, .pBody ul li a {\n    \tbackground:  #171b1f !important;\n    \tcolor: #b1b1b1 !important;\n    }\n    \n    a, .de1 {\n        color: #106696 !important;\n    }\n    \n    .nu0, .sy0 {\n    \tcolor: #b1b1b1 !important;\n    }\n    \n    table {\n        border-color: #106696 !important;\n        border: 1px #106696 !important;\n        border-style: solid !important;\n    }\n    \n    li.selected {\n        border-color: #106696 !important;\n    }",
+				"domains": [
+					"www.roguebasin.com"
+				]
+			},
+			{
+				"code": "html, body, p, #content, h1, h2, h3, h4, h5, table, .initialize-tutorial, .icon-user-function, .user-status li, #contentWrapper, #footer-block, #headerSmall, .td1, .td1 a span, .td1 div small a, .td1 a, .status_not_selected, .status_not_selected a, .ranking-digest ul, .ranking-digest, .normal_header, .navi-seasonal, .seasonal-anime div div, #hide-advanced-button, .header-notification-item-list, .header-notification-view-all a, #horiznav_nav ul li a, #horiznav_nav ul li, .button_add {\n    background:  #171b1f !important;\n    color: #b1b1b1 !important;\n}\n.td2, .td2 a span, .td2 div small a, .td2 a, .table_header, .table_header a strong, .table_header strong a, .table_header b a, .status_selected, .status_selected a, .genre {\n    background:  #105686 !important;\n    color: #171b1f !important;\n}\n.button_edit, .button_add, .initialize-tutorial, .h1, #content, .left-column, .borderClass, .item, .news-unit, div.genre-list.al, .seasonal-anime, #dialog {\n    border: 0px !important;\n}\n.genre a {\n    color: white !important;\n}",
+				"domains": [
+					"myanimelist.net"
+				]
+			},
+			{
+				"code": ".page_content, .page, .page_back, .toplinks, tr.even td, th, td, .player_clan {\n    background:  #171b1f !important;\n    color: #b1b1b1 !important;\n}\n\na {\n    color: #106696 !important;\n}\n\nhr {\n    border: 0px !important;\n}",
+				"domains": [
+					"dobrazupa.org"
+				]
+			}
+		],
+		"id": 1
+	}
+]
