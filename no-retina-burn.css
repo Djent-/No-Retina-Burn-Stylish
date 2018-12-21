@@ -1,5 +1,5 @@
 @-moz-document domain("www.youtube.com") {
-html, #page, #masthead-appbar, #content, div .yt-card, .yt-uix-sessionlink, .yt-lockup-byline, #yt-masthead-container, #appbar-guide-menu, #masthead-positioner-height-offset, button.edit-button, button.remove-watched-button, button.playlist-add-video-button, button.yt-uix-inlineedit-edit, #footer, #footer-container, #body-container, li.currently-playing, #watch-appbar-playlist, .playlist-title, h4, .yt-uix-scroller-scroll-unit, .pl-video-edit-more, .yt-uix-menu-trigger, .yt-uix-menu-trigger-selected, .yt-uix-menu-content, .yt-ui-menu-content, .pl-video-edit-remove, .yt-ui-menu-item, #yt-picker-language-button, #yt-picker-country-button, #yt-picker-safetymode-button, #google-help, .yt-picker, .secondary-header-contents, .yt-live-chat-item-list-renderer, .yt-lockup-description, .yt-uix-livereminder-main-button, .comment-simplebox, .comment-simplebox-text, .comment-simplebox-cancel, .dashboard-widget-header, .dashboard-widget-padded-content, .dashboard-widget-view-all-link, .shelf-description, .yt-uix-button, .ytd-masthead, ytd-guide-section-renderer, ytd-playlist-sidebar-renderer, ytd-section-list-renderer, #non-appbar-vm-video-actions-bar, .vm-video-item, .yt-uix-pager, #vm-pagination, yt-live-chat-header-renderer, yt-live-chat-message-input-renderer, .yt-live-chat-viewer-engagement-message-renderer, .title.yt-ui-ellipsis, .description.yt-uix-expander .yt-ui-ellipsis, .description.yt-uix-expander {
+html, #page, #masthead-appbar, #content, div .yt-card, .yt-uix-sessionlink, .yt-lockup-byline, #yt-masthead-container, #appbar-guide-menu, #masthead-positioner-height-offset, button.edit-button, button.remove-watched-button, button.playlist-add-video-button, button.yt-uix-inlineedit-edit, #footer, #footer-container, #body-container, li.currently-playing, #watch-appbar-playlist, .playlist-title, h4, .yt-uix-scroller-scroll-unit, .pl-video-edit-more, .yt-uix-menu-trigger, .yt-uix-menu-trigger-selected, .yt-uix-menu-content, .yt-ui-menu-content, .pl-video-edit-remove, .yt-ui-menu-item, #yt-picker-language-button, #yt-picker-country-button, #yt-picker-safetymode-button, #google-help, .yt-picker, .secondary-header-contents, .yt-live-chat-item-list-renderer, .yt-lockup-description, .yt-uix-livereminder-main-button, .comment-simplebox, .comment-simplebox-text, .comment-simplebox-cancel, .dashboard-widget-header, .dashboard-widget-padded-content, .dashboard-widget-view-all-link, .shelf-description, .yt-uix-button, .ytd-masthead, ytd-guide-section-renderer, ytd-playlist-sidebar-renderer, ytd-section-list-renderer, #non-appbar-vm-video-actions-bar, .vm-video-item, .yt-uix-pager, #vm-pagination, yt-live-chat-header-renderer, yt-live-chat-message-input-renderer, .yt-live-chat-viewer-engagement-message-renderer, .title.yt-ui-ellipsis, .description.yt-uix-expander .yt-ui-ellipsis, .description.yt-uix-expander, #masthead-search-term {
         background: #171b1f !important;
     }
     #masthead-appbar,
@@ -55,7 +55,7 @@ html, #page, #masthead-appbar, #content, div .yt-card, .yt-uix-sessionlink, .yt-
     .vm-video-side-view-count a,
     yt-live-chat-header-renderer,
     paper-button #label-text, 
-    yt-live-chat-message-input-renderer, .description.yt-uix-expander .yt-ui-ellipsis {
+    yt-live-chat-message-input-renderer, .description.yt-uix-expander .yt-ui-ellipsis, #masthead-search-term {
         color: #b1b1b1 !important;
     }
     .yt-uix-dragdrop-drag-handle,
@@ -432,5 +432,26 @@ a {
 
 hr {
     border: 0px !important;
+}
+}
+
+@-moz-document url-prefix("http://crawl.chaosforge.org") {
+html, body, p, span, div, input, table, code, td, th {
+    background: #171b1f !important;
+    color: #b1b1b1 !important;
+}
+a, b, h1 {
+    color: #106696 !important;
+}
+.version-table {
+    border-color: #106696 !important;
+    border: 1px #106696 !important;
+    border-style: solid !important;
+}
+.version-table {
+    margin-top: 5px !important;
+}
+span {
+    text-shadow: none !important;
 }
 }
