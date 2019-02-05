@@ -280,19 +280,40 @@ html, body, .global-nav-inner, .tweet, .module, .home-tweet-box, .flex-module, .
 }
 
 @-moz-document domain("www.google.com") {
-html, body, .fbar, a, p, span, div, input {
+html, body, .fbar, a:not(.gbii):not(.THL2l):not(.cFyQPb):not(.gb_9):not(.gb_b):not(.gb_xc):not(.gb_cb):not(.gb_ad), p, span:not(.qB1pae):not(.gbii):not(.gb_X):not(.gb_W):not(.gb_M), input, div:not(.gbii):not(.THL2l):not(.cFyQPb):not(.gb_9):not(.gb_b):not(.gb_xc):not(.gb_cb):not(.gb_ad):not(.gb_lb):not(.OIL2le), ul.gb_ea:nth-child(1), .MTPK1e/**/ {
         background: #171b1f !important;
         color: #b1b1b1 !important;
-    }
-    input {
-        padding: 1px !important;
-        padding-left: 4px !important;
-        padding-right: 3px !important;
-        border-color: #106696 !important;
-        border: 1px #106696 !important;
-        border-style: solid !important;
-        border-radius: 10px !important;
-    }
+}
+input {
+    padding: 1px !important;
+    padding-left: 4px !important;
+    padding-right: 3px !important;
+    border-color: #106696 !important;
+    border: 1px #106696 !important;
+    border-style: solid !important;
+    border-radius: 10px !important;
+}
+/*
+.THL2l, .cFyQPb.ytYVgb {
+    background: none !important;
+}
+/* Add border around Google notifications, apps, and profile picture since they are obstructed. */
+/*.gb_vd {
+    border-color: #106696 !important;
+    border: 1px #106696 !important;
+    border-style: solid !important;
+    /*border-radius: 10px !important;*/
+/*}
+/* Fix the apps button/icon. */
+/*.gb_9 .gb_b {
+    background-position: 0 -1801px !important;
+    opacity: 1 !important;
+}
+.gb_xc {
+    background-image: url('https://ssl.gstatic.com/gb/images/v2_abb067380.png') !important;
+    background-size: 92px 2839px !important;
+}
+/* Fix the profile picture. */
 }
 
 @-moz-document domain("encrypted.google.com") {
