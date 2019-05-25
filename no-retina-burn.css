@@ -93,7 +93,10 @@ html, .global-container, tr, div.card, body, .modal-content, .modal-footer,
     .add-content-expanded, .library-issues--title span, .settings--header,
     .import-option, .stream-item, .stream-item--title-block, .aggregate-date,
     .aggregate-wrapper button, .tagged-media, .add-comment-wrapper,
-    .stream-item-comments, .timeline-link.active, .media-browse div {
+    .stream-item-comments, .timeline-link.active, .media-browse div, .user-stats-panel,
+    .comment-box-row textarea, .library-list tbody div, .ember-power-select-selected-item,
+    .library-filters div, .card .ember-power-select-trigger, .quick-update-actions div,
+    .quick-update--input-wrapper textarea, .reply-list {
         background: #171b1f !important;
     }
     nav, .stream-item-comments {
@@ -118,10 +121,12 @@ html, .global-container, tr, div.card, body, .modal-content, .modal-footer,
     .library-issues--title span,
     .import-option span,
     .stream-item, .aggregate-date,
-    .aggregate-wrapper button{
+    .aggregate-wrapper button, 
+    .ember-power-select-selected-item,
+    .reply-list {
         color: #b1b1b1 !important;
     }
-    .nav-link .active {
+    .nav-link .active, .quick-update--input-wrapper textarea {
         border: #171b1f !important;
     }
     .stream-add-content, .add-comment-wrapper {
