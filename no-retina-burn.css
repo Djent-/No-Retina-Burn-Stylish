@@ -96,7 +96,8 @@ html, .global-container, tr, div.card, body, .modal-content, .modal-footer,
     .stream-item-comments, .timeline-link.active, .media-browse div, .user-stats-panel,
     .comment-box-row textarea, .library-list tbody div, .ember-power-select-selected-item,
     .library-filters div, .card .ember-power-select-trigger, .quick-update-actions div,
-    .quick-update--input-wrapper textarea, .reply-list {
+    .quick-update--input-wrapper textarea, .reply-list, .entry-state-header span,
+    .edit-modal--body div div div{
         background: #171b1f !important;
     }
     nav, .stream-item-comments {
@@ -123,7 +124,8 @@ html, .global-container, tr, div.card, body, .modal-content, .modal-footer,
     .stream-item, .aggregate-date,
     .aggregate-wrapper button, 
     .ember-power-select-selected-item,
-    .reply-list {
+    .reply-list, .entry-state-header span,
+    .state-helper {
         color: #b1b1b1 !important;
     }
     .nav-link .active, .quick-update--input-wrapper textarea {
