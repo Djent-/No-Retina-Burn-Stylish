@@ -184,7 +184,7 @@ html, body, .document, #module-ui, a, h1, h2, h3, tt, div, nav, code, input, sel
 }
 
 @-moz-document domain("github.com") {
-html, body, a, h1, h2, h3, .commit-tease, .pagehead, table, td, .file-header, .commit-tease-contributors, .user-mention, .Counter, #js-issues-toolbar, .js-issue-row, ul.pl-2, header, .description, .Header, .discussion-timeline-actions, .timeline-comment, .comment-form-head, article, .CodeMirror-linenumber, .CodeMirror-line, .CodeMirror-scroll, .CodeMirror-gutter, .CodeMirror-lines, .markdown-body, button.btn.btn-sm.btn-with-count.js-toggler-target, span.num.text-emphasized, div.commit.full-commit.px-2.pt-2, div.commit-meta.clearfix.p-2.no-wrap.d-flex.flex-items-center, div.thread-subscription-status, #new_commit_comment_field, p.drag-and-drop.position-relative, button.btn.btn-sm.BtnGroup-item, .select-menu-header, .select-menu-filters, .select-menu-title, .dashboard-notice.js-notice, .filter-repos.filter-bar, .user-repos .boxed-group-inner, .user-repos .filter-bar, .blankslate, #issue_body, .Box-header, li.Box-row, span.num, .timeline-comment-header, .btn-with-count, .thread-subscribe-form button, .text-gray-dark, .js-notice, .user-profile-nav, ul.filter-list, .profile-timeline-month-heading, .profile-timeline-year-list, .ajax-pagination-btn, .user-profile-mini-vcard, .user-profile-sticky-bar::after, li.commit.open, li.commit.navigation-focus, pre.text-small, .zeroclipboard-button, button.js-details-target, svg.octicon-git-commit, .mergeability-details, div.merge-status-item.d-flex.flex-items-baseline, button.select-menu-button, input#context-commitish-filter-field, a span.tag-name, .pr-toolbar, .diffbar, button strong, .closed-banner, a code, nav .selected, #new_comment_field, #partial-new-comment-form-actions button, .comment-body pre, #progressive-timeline-item-container form, .discussion-item-header .Box.d-inl, ine-flex, .Box.d-inline-flex button, clipboard-copy, #js-issues-search, #your-repos-filter, #org-repositories div div, .auto-search-group input, .follow form button, .repository-content .mb-3, .Box-body, .Box.p-3.mt-2, details-menu, .merge-message, #deployment_environment_github-pages .Box-row.d-flex, summary.btn, .js-repo-features-form .Box, .bg-blue-light.border.border-blue-light.rounded-1.pl-5.p-3.my-3, .js-merge-features-form, #options_bucket .Box, .access-form-wrapper, span.lang, span.percent, #repo-meta-edit summary div div span, .activity-overview-box, .profile-timeline-card, .Popover-message, div.bg-gray-light.border-bottom, .container-lg, .blame-blob-num, button.btn, .js-notification, .js-blob-edit-tab, select, .gh-header, .gh-header-shadow, .application-main div {
+html, body, a, h1, h2, h3, .commit-tease, .pagehead, table, td, .file-header, .commit-tease-contributors, .user-mention, .Counter, #js-issues-toolbar, .js-issue-row, ul.pl-2, header, .description, .Header, .discussion-timeline-actions, .timeline-comment, .comment-form-head, article, .CodeMirror-linenumber, .CodeMirror-line, .CodeMirror-scroll, .CodeMirror-gutter, .CodeMirror-lines, .markdown-body, button.btn.btn-sm.btn-with-count.js-toggler-target, span.num.text-emphasized, div.commit.full-commit.px-2.pt-2, div.commit-meta.clearfix.p-2.no-wrap.d-flex.flex-items-center, div.thread-subscription-status, #new_commit_comment_field, p.drag-and-drop.position-relative, button.btn.btn-sm.BtnGroup-item, .select-menu-header, .select-menu-filters, .select-menu-title, .dashboard-notice.js-notice, .filter-repos.filter-bar, .user-repos .boxed-group-inner, .user-repos .filter-bar, .blankslate, #issue_body, .Box-header, li.Box-row, span.num, .timeline-comment-header, .btn-with-count, .thread-subscribe-form button, .text-gray-dark, .js-notice, .user-profile-nav, ul.filter-list, .profile-timeline-month-heading, .profile-timeline-year-list, .ajax-pagination-btn, .user-profile-mini-vcard, .user-profile-sticky-bar::after, li.commit.open, li.commit.navigation-focus, pre.text-small, .zeroclipboard-button, button.js-details-target, svg.octicon-git-commit, .mergeability-details, div.merge-status-item.d-flex.flex-items-baseline, button.select-menu-button, input#context-commitish-filter-field, a span.tag-name, .pr-toolbar, .diffbar, button strong, .closed-banner, a code, nav .selected, #new_comment_field, #partial-new-comment-form-actions button, .comment-body pre, #progressive-timeline-item-container form, .discussion-item-header .Box.d-inl, ine-flex, .Box.d-inline-flex button, clipboard-copy, #js-issues-search, #your-repos-filter, #org-repositories div div, .auto-search-group input, .follow form button, .repository-content .mb-3, .Box-body, .Box.p-3.mt-2, details-menu, .merge-message, #deployment_environment_github-pages .Box-row.d-flex, summary.btn, .js-repo-features-form .Box, .bg-blue-light.border.border-blue-light.rounded-1.pl-5.p-3.my-3, .js-merge-features-form, #options_bucket .Box, .access-form-wrapper, span.lang, span.percent, #repo-meta-edit summary div div span, .activity-overview-box, .profile-timeline-card, .Popover-message, div.bg-gray-light.border-bottom, .container-lg, .blame-blob-num, button.btn, .js-notification, .js-blob-edit-tab, select, .gh-header, .gh-header-shadow, .application-main div, .dropdown-item, .write-tab, .preview-tab, .drag-and-drop span {
         background: #171b1f !important;
         color: #b1b1b1 !important;
     }
@@ -193,7 +193,7 @@ html, body, a, h1, h2, h3, .commit-tease, .pagehead, table, td, .file-header, .c
         background: 0 0;
     }
     .commit-title,
-    .text-emphasized, a.link-gray-dark {
+    .text-emphasized, a.link-gray-dark, .merge-branch-heading {
         color: #106696 !important;
     }
     div.commit.full-commit.px-2.pt-2,
@@ -276,6 +276,12 @@ html, body, a, h1, h2, h3, .commit-tease, .pagehead, table, td, .file-header, .c
     .tabnav-tab.js-blob-edit-tab {
         border-color: #d1d5da !important;
         border-radius: 3px 3px 0 0 !important;
+    }
+    .commit-ref {
+        border: 1px solid #106696 !important;
+    }
+    .commit-ref, .commit-ref a {
+        background-color: #171b1f !important;
     }
 }
 
