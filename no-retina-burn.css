@@ -371,6 +371,9 @@ html, body, .header, .header--aside, #header_wrapper, form, input, .highlight, .
         background: #171b1f !important;
         color: #b1b1b1 !important;
     }
+    .module__title span, .module__text span {
+        color: #494949 !important;
+    }
     .search-filters-wrap::before, .search-filters-wrap::after {
         background-image: none !important;
     }
